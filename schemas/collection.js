@@ -160,7 +160,7 @@ export default {
           slugify: input => input
                                .toLowerCase()
                                .replace(/\s+/g, '-')
-                               .slice(0, 200)
+                               .slice(0, 300)
         }
       },
       //Url
