@@ -35,9 +35,7 @@ export default {
             name: 'caption',
             type: 'string',
             title: 'Caption',
-            options: {
-              isHighlighted: true // <-- make this field easily accessible
-            }
+            
           },
           {
             // Editing this field will be hidden behind an "Edit"-button
@@ -167,6 +165,12 @@ export default {
       {
         title: 'URL Property',
         name: 'urlProperty',
+        type: 'url'
+      },
+       //Url2
+       {
+        title: 'URL2 Property',
+        name: 'url2Property',
         type: 'url'
       }
     ]
